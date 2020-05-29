@@ -23,6 +23,21 @@ body {
     src: url("../fonts/Righteous-Regular.ttf");
 }
 
+@font-face{
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Roboto-Light";
+    src: url("../fonts/Roboto/Roboto-Light.ttf");
+}
+
+@font-face{
+    font-family: "RobotoMono-Regular";
+    src: url("../fonts/Roboto_Mono/RobotoMono-Regular.ttf");
+}
+
 @keyframes float {
     0% {
         transform: translatey(0px);
@@ -52,4 +67,20 @@ body {
     margin-bottom: 80px;
 }
 
-
+/* Post CSS */
+.post-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    font-family: "RobotoMono-Regular";
+    font-size: 18px;
+    text-align: left;
+}
+  
+@media (min-width: 768px) {
+    .post-container {
+        width: 700px;
+    }
+}
