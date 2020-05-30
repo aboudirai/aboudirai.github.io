@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Recreating the TikTok Textbot with Python
+title: Making a iOS Filter App 
 ---
 This is a test post for *development* of the blog on my website. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae
 

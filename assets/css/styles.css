@@ -67,20 +67,38 @@ body {
     margin-bottom: 80px;
 }
 
+/* Blog CSS */
+.blog-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "RobotoMono-Regular";
+    font-size: 18px;
+    text-align: left;
+} 
+
+.blog-container a{
+    text-decoration: none;
+    color: inherit;a
+}
+
 /* Post CSS */
 .post-container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    color: black;
     font-family: "RobotoMono-Regular";
     font-size: 18px;
     text-align: left;
 }
-  
+
 @media (min-width: 768px) {
     .post-container {
+        width: 700px;
+    }
+    .blog-container {
         width: 700px;
     }
 }
